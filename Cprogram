@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+printf("Enter the values:");
+scanf("%d%d",&a,&b);
+a=b;
+b=c;
+c=a;
+printf(a,b);
+getch();
+}
